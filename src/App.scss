@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+*::before, *::after {
+  box-sizing: border-box;   
+}
+
+img, picture {
+  max-width: 100%;
+}
+
+.btn-top {
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  font-size:100px;
+  border: 3px solid #f1f1f1;
+  border-radius: 10px;
+  color: rgb(82,76,76);
+}

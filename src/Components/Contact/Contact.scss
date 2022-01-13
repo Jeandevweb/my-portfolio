@@ -1,0 +1,51 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: rgb(248,235,235);
+    .arrow{
+        margin: 20px 0 0 20px;
+        color: rgb(82,76,76);
+        cursor: pointer;
+    }
+}
+
+.input{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1{
+        color: rgb(82,76,76);
+        font-size:70px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(82,76,76);
+        cursor: pointer;
+        font-size: 20px;
+        margin: 40px 0;
+    }
+    p{
+        font-size: 40px;
+        color: rgb(82,76,76);
+    }
+   
+}
+
+//------------------------ Media Queries ---------------------------//
+
+@media (max-width:440px){
+    .input{
+       h1{
+           font-size: 50px;
+       }
+       p{
+           font-size: 27px;
+       }
+          
+}}

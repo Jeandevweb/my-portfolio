@@ -1,0 +1,120 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.navbar-logo {
+    margin: 10px 0 0 20px;
+    display: none;
+}
+
+.navbar-items {
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    margin-top: 15px;
+   
+    li {
+        list-style: none;
+        margin: 1rem;
+        font-size: 25px;
+        
+       
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000000;
+            margin: 0 50px;
+            
+
+            &:hover {
+                border-bottom: 3px solid #000000;
+
+            }
+        }
+    }
+}
+
+.changer {
+   display: flex; 
+   margin-right: 1.55rem;
+
+   .menu {
+       cursor: pointer;
+    //    margin-right: 1rem;
+       display: none;
+   }
+}
+
+.closed {
+    .close{
+        display: none;
+    }
+}
+
+//------------------------ Media Queries ---------------------------//
+
+@media (max-width:850px){
+    .header {
+        justify-content: space-between;
+    }
+    .navbar-items {
+        display: none;
+        transition: 1s ease;
+    }
+    .navbar-items.active {
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        position: fixed;
+        inset: 0;
+        background: rgb(253,234,234);
+    }
+    ul{
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+
+        li{
+            margin-block: 2rem;
+
+            a{
+                font-size:20px;
+                color: rgb(40,36,36);
+                font-weight: bold;
+            }
+        }
+    }
+
+    .changer {
+        .menu{
+            display: block;
+            position: absolute;
+            right: 20px;
+        }
+    }
+    .closed {
+          .close{
+              display: block;
+              
+          }  
+    }
+}
+@media(max-width:490px){
+    .navbar-logo {
+        display: none;
+    }
+    .changer{
+        .menu{
+           top:30px;
+           right: 30px; 
+        }
+    }
+}

@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+// import {Routes, Route} from 'react-router-dom';
+import Navbar from './Components/Navbar/Navbar';
+import Main from './Components/Main/Main';
+import Skills from './Components/Skills/Skills';
+import Works from './Components/Works/Works';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">    
+        <Navbar/>
+        <Main/>
+        <Skills/>
+        <Works/>
+        <a href="#main"><ArrowUpwardIcon className="btn-top" sx={{ fontSize: 50 }}/></a>
     </div>
   );
 }

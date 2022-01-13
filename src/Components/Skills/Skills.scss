@@ -1,0 +1,70 @@
+.skills {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(101, 11, 228, 0.77), rgba(244, 67, 2, 0.562));
+    overflow: hidden;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 50px;
+    text-align: center;
+
+    h1{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 55px;
+        margin-bottom: 7.5rem;
+    }
+    p{
+        font-weight: bold; 
+        color: #fff;
+        text-transform: uppercase;
+        border-bottom: 1px solid green;
+        cursor: pointer;
+        box-shadow: 2px 2px 15px green;
+        padding: 16px;
+        width: 60vw;
+        font-size: 25px;
+        margin-block: 15px;
+
+        &:hover{
+            transform: scale(1.1);
+            transition: all 0.7s ease-in-out;
+        }
+    }
+}
+
+//------------------------ Media Queries ---------------------------//
+
+@media (max-width:740px){
+    .skills-container {
+        p{
+          width: 100%;  
+        }
+    }
+}
+@media (max-width:490px){
+    .skills-container {
+        margin: 0 auto;
+        p{
+          font-size: 19px;  
+        }
+    }
+}
+@media (max-width:380px){
+    .skills-container-content{
+        h1{
+            position: relative;
+            top: 50px;
+            font-size: 40px;
+        }
+        p{
+            font-size: 14px;
+            padding: 7px;  
+          }
+    }
+}
