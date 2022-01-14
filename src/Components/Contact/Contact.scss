@@ -6,6 +6,12 @@
         margin: 20px 0 0 20px;
         color: rgb(82,76,76);
         cursor: pointer;
+        &:hover{
+            transform: scale(1.2);
+            border: 1px solid rgb(82,76,76);
+            border-radius: 15px;
+            
+        }
     }
 }
 

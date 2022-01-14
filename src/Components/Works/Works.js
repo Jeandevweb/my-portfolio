@@ -6,6 +6,7 @@ import fetchCountries from '../../assets/fetchCountries.png';
 import pokedex from '../../assets/pokedex.png';
 import random from '../../assets/randomGithub.png';
 import todo from '../../assets/todoList.png';
+import tetris from '../../assets/tetris.png';
 import {Link} from 'react-router-dom'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
  
@@ -25,6 +26,12 @@ export default function Works() {
                 <div className="cards">
                     <a href="https://dreamy-shannon-409850.netlify.app/" target="_blank">
                     <img src={quizz} alt="quizz image" />
+                    <button>Accéder</button>
+                    </a>
+                </div>
+                <div className="cards">
+                    <a href="https://the-beautiful-tetris.netlify.app/" target="_blank">
+                    <img src={tetris} alt="tetris image" />
                     <button>Accéder</button>
                     </a>
                 </div>
