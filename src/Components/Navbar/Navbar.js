@@ -3,7 +3,7 @@ import "./Navbar.scss";
 import close from '../../assets/close.svg'; 
 import menu from '../../assets/menu.svg' 
 import {Link, NavLink} from 'react-router-dom';
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -15,15 +15,15 @@ export default function Navbar() {
         setActive(!active)
     }
 
+
   return (
     <div className="navbar">
       <div className="navbar-logo">
         <h1>MARTIAL</h1>
       </div>
       <nav className={active ? 'navbar-items active' : 'navbar-items'}>
-        <ul>
-          <div className="closed" >
-            
+        <ul id="navbar-menu">
+          <div className="closed" >           
             <CloseIcon className="close" onClick={showMenu}/>
           </div>
 
@@ -31,7 +31,7 @@ export default function Navbar() {
               <Link to="/">Accueil</Link>
           </li>
           <li>
-              <a href="#skills">A Propos de Moi</a>
+              <Link to="/skills">A Propos de Moi</Link>
           </li>    
           <li>
               <Link to="/contact">Contact</Link>

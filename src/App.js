@@ -11,9 +11,7 @@ function App() {
     <div className="App">    
         <Navbar/>
         <Main/>
-        <Skills/>
-        <Works/>
-        <a href="#main"><ArrowUpwardIcon className="btn-top" sx={{ fontSize: 50 }}/></a>
+        {/* <a href="#main"><ArrowUpwardIcon className="btn-top" sx={{ fontSize: 50 }}/></a> */}
     </div>
   );
 }

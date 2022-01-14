@@ -3,6 +3,17 @@
     min-height: 100vh;
     background: linear-gradient(45deg, rgba(101, 11, 228, 0.77), rgba(244, 67, 2, 0.562));
     overflow: hidden;
+    .arrow{
+        margin: 25px 0 0 15px;
+        color: rgb(82,76,76);
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.2);
+            border: 1px solid rgb(82,76,76);
+            border-radius: 15px;
+            
+        }
+    }
 }
 
 .skills-container {

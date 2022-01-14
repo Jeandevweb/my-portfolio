@@ -6,10 +6,15 @@ import fetchCountries from '../../assets/fetchCountries.png';
 import pokedex from '../../assets/pokedex.png';
 import random from '../../assets/randomGithub.png';
 import todo from '../../assets/todoList.png';
+import {Link} from 'react-router-dom'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
  
 export default function Works() {
     return (
         <div className="works" id="works">
+            <Link to="/">
+                < ArrowBackIcon className="arrow" sx={{ fontSize: 50 }}/>
+            </Link>
             <div className="work-section">
                 <div className="cards one">
                     <a href="https://clever-aryabhata-7d0a12.netlify.app/" target="_blank">

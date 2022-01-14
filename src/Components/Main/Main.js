@@ -22,7 +22,7 @@ export default function Main() {
           </div>
 
           <div className="buttons">
-                <a href="#works"><button>Mes Projets</button></a>
+                <Link to="/works"><button>Mes Projets</button></Link>
                 <Link to="/contact"><button>Me Contacter</button></Link>
 
           </div>

@@ -118,3 +118,11 @@ ul {
         }
     }
 }
+@media(max-width:310px){
+    .navbar-items{
+        a{
+            font-size: 18px;
+            margin: 0 20px;
+        }
+    }
+}
