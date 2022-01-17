@@ -7,6 +7,7 @@ import pokedex from '../../assets/pokedex.png';
 import random from '../../assets/randomGithub.png';
 import todo from '../../assets/todoList.png';
 import tetris from '../../assets/tetris.png';
+import planet from '../../assets/planetStudio.png';
 import {Link} from 'react-router-dom'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
  
@@ -21,6 +22,12 @@ export default function Works() {
                     <a href="https://clever-aryabhata-7d0a12.netlify.app/" target="_blank">
                         <img src={actos} alt="actos image" className="img-one"/>
                         <button>Accéder</button>
+                    </a>
+                </div>
+                <div className="cards">
+                    <a href="https://www.planet-studio.fr/" target="_blank">
+                    <img src={planet} alt="planetStudio image" />
+                    <button>Accéder</button>
                     </a>
                 </div>
                 <div className="cards">
