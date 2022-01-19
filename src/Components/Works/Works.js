@@ -7,6 +7,7 @@ import pokedex from '../../assets/pokedex.png';
 import random from '../../assets/randomGithub.png';
 import todo from '../../assets/todoList.png';
 import tetris from '../../assets/tetris.png';
+import maps from '../../assets/maps.png';
 import planet from '../../assets/planetStudio.png';
 import {Link} from 'react-router-dom'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -55,8 +56,8 @@ export default function Works() {
                     </a>
                 </div>
                 <div className="cards">
-                    <a href="https://priceless-minsky-43a666.netlify.app/" target="_blank">
-                    <img src={random} alt="github image" />
+                    <a href="https://the-travel-advisor.netlify.app/" target="_blank">
+                    <img src={maps} alt="map image" />
                     <button>Accéder</button>
                     </a>
                 </div>
