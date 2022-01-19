@@ -4,10 +4,10 @@ import actos from '../../assets/actosSite.png';
 import quizz from '../../assets/quizz.png';
 import fetchCountries from '../../assets/fetchCountries.png';
 import pokedex from '../../assets/pokedex.png';
-import random from '../../assets/randomGithub.png';
+// import random from '../../assets/randomGithub.png';
 import todo from '../../assets/todoList.png';
 import tetris from '../../assets/tetris.png';
-import maps from '../../assets/maps.png';
+import maps from '../../assets/maps.jpg';
 import planet from '../../assets/planetStudio.png';
 import {Link} from 'react-router-dom'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
