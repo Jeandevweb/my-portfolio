@@ -11,6 +11,8 @@ import maps from '../../assets/maps.jpg';
 import planet from '../../assets/planetStudio.png';
 import {Link} from 'react-router-dom'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import LanguageIcon from '@mui/icons-material/Language';
+import GitHubIcon from "@mui/icons-material/GitHub";
  
 export default function Works() {
     return (
@@ -29,6 +31,12 @@ export default function Works() {
                     <a href="https://www.planet-studio.fr/" target="_blank">
                     <img src={planet} alt="planetStudio image" />
                     <button>Accéder</button>
+                    <div className="cards-icons">
+                        <a href="https://www.planet-studio.fr/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <GitHubIcon className="icon-work"/>
+                    </div>
+                    <p className="cards-title">PlanetStudio Architecture</p>
+                    <p className="cards-description">Site Web réalisé avec Squarespace</p>
                     </a>
                 </div>
                 <div className="cards">
