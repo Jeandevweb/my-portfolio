@@ -17,8 +17,8 @@ export default function Main() {
           <p>Développeur Front-end</p>
 
           <div className="icons">
-            <a href="https://www.linkedin.com/in/jean-martial-053279a7/" target="_blank"><LinkedInIcon className="icon"/></a>
-            <a href="https://github.com/Jeandevweb" target="_blank"><GitHubIcon className="icon" /></a>
+            <a href="https://www.linkedin.com/in/jean-martial-053279a7/" target="_blank"><LinkedInIcon className="icon primary"/></a>
+            <a href="https://github.com/Jeandevweb" target="_blank"><GitHubIcon className="icon secondary" /></a>
           </div>
 
           <div className="buttons">

@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    color:#2C2C54;
     position: absolute;
     z-index: 1;
     font-size: 20px;
@@ -29,7 +30,7 @@ ul {
         a{
             text-decoration: none;
             text-transform: uppercase;
-            color: #000000;
+            color:#2C2C54;
             margin: 0 50px;
             
 
@@ -74,7 +75,8 @@ ul {
         align-items: center;
         position: fixed;
         inset: 0;
-        background: rgb(253,234,234);
+        background-image: repeating-linear-gradient(0deg, transparent 0px, transparent 25px,hsla(222,99%,62%,0.08) 25px, hsla(222,99%,62%,0.08) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 25px,hsla(222,99%,62%,0.08) 25px, hsla(222,99%,62%,0.08) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 50px,hsla(328,92%,72%,0.12) 50px, hsla(328,92%,72%,0.12) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, transparent 0px, transparent 50px,hsla(328,92%,72%,0.12) 50px, hsla(328,92%,72%,0.12) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, hsla(231,83%,44%,0.12) 0px, hsla(231,83%,44%,0.12) 2px,transparent 2px, transparent 102px),repeating-linear-gradient(90deg, hsla(231,83%,44%,0.12) 0px, hsla(231,83%,44%,0.12) 2px,transparent 2px, transparent 102px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+        color:#2C2C54;
     }
     ul{
         margin: 0 auto;
@@ -87,7 +89,7 @@ ul {
 
             a{
                 font-size:20px;
-                color: rgb(40,36,36);
+                color:#2C2C54;
                 font-weight: bold;
             }
         }

@@ -14,7 +14,7 @@ export default function Contact() {
             <div className="input">
                 <h1>Contactez Moi</h1>
                 <a href="https://www.linkedin.com/in/jean-martial-053279a7/" target="_blank"><LinkedInIcon sx={{ fontSize: 60 }}/></a>
-                <p>Par Mail : jj.martial@gmail.com</p>
+                <p>Par mail : jj.martial@gmail.com</p>
             </div>
         </div>
     )

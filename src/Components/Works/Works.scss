@@ -1,7 +1,12 @@
+.works-background{
+    background-image: repeating-linear-gradient(0deg, transparent 0px, transparent 25px,hsla(222,99%,62%,0.08) 25px, hsla(222,99%,62%,0.08) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 25px,hsla(222,99%,62%,0.08) 25px, hsla(222,99%,62%,0.08) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 50px,hsla(328,92%,72%,0.12) 50px, hsla(328,92%,72%,0.12) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, transparent 0px, transparent 50px,hsla(328,92%,72%,0.12) 50px, hsla(328,92%,72%,0.12) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, hsla(231,83%,44%,0.12) 0px, hsla(231,83%,44%,0.12) 2px,transparent 2px, transparent 102px),repeating-linear-gradient(90deg, hsla(231,83%,44%,0.12) 0px, hsla(231,83%,44%,0.12) 2px,transparent 2px, transparent 102px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
+
 .works{
     min-height: 100vh;
     width: 80%;
     margin: 1rem auto;
+    
     .arrow{
         margin-left:15px;
         color: rgb(82,76,76);
@@ -23,17 +28,13 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
         gap: 3rem;
-        // align-items: center;
-
     }
 }
 
 .cards{
     position: relative;
-    cursor: pointer;
     height: 23rem;
-    width: 25rem;
-    // border: 3px solid #f1f1f1ff;
+    width: 100%;
     img{
         height: 65%;
         width: 100%;
@@ -59,14 +60,6 @@
             background: #f1f1f1;
         }
     }
-    &:hover button {
-        opacity: 1;
-        transition: all 0.5s ease-in-out;
-    }
-    &:hover img {
-        opacity: 0.2;
-        transition: all 0.5s ease-in-out;
-    }
     .cards-icons{
         display: flex;
         justify-content: center;
@@ -91,15 +84,21 @@
     }
 }
 
+@media (max-width: 1100px) {
+    .cards{
+        height: 30rem;
+    }
+}
+
 @media (max-width: 800px){
     .cards{
         width: 90%;
-        margin: 0 auto;
-        margin-bottom: 2rem;
+        margin: 0px auto;
+        margin-bottom: 4rem;     
     }
 }
 @media (max-width: 500px){
     .cards{
-        height: 40vh;
+        height: 45vh;
     }
 }
