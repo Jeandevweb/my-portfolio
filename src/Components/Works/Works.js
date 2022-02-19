@@ -9,6 +9,7 @@ import todo from '../../assets/todoList.png';
 import tetris from '../../assets/tetris.png';
 import maps from '../../assets/maps.jpg';
 import planet from '../../assets/planetStudio.png';
+import loruki from '../../assets/loruki.png';
 import {Link} from 'react-router-dom'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import LanguageIcon from '@mui/icons-material/Language';
@@ -84,13 +85,13 @@ export default function Works() {
                 </div>
 
                 <div className="cards">                  
-                    <img src={tetris} alt="tetris image" />                 
+                    <img src={loruki} alt="loruki image" />                 
                     <div className="cards-icons">
-                        <a href="https://the-beautiful-tetris.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
-                        <a href="https://github.com/Jeandevweb/Tetris-basic" target="_blank"><GitHubIcon className="icon-work"/></a>
+                        <a href="https://silly-shaw-6a51de.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <a href="https://github.com/Jeandevweb/IntegrationWebsite" target="_blank"><GitHubIcon className="icon-work"/></a>
                     </div>
-                    <p className="cards-title">Tétris</p>
-                    <p className="cards-description">Javascript, HTML, CSS </p>                   
+                    <p className="cards-title">Loruki</p>
+                    <p className="cards-description">HTML, SCSS </p>                   
                 </div>
 
                 <div className="cards">
