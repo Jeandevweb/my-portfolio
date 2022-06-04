@@ -12,9 +12,9 @@ export default function Main() {
       <div className="main-container">
 
         <div className="text">
-          <p>Hey, Bienvenue à Toi</p>
-          <h1>Je Suis Jean Martial</h1>
-          <p>Développeur Front-end</p>
+          
+          <h1>Martial jean</h1>
+          <p>Développeur Front-end / INTéGRATEUR WEB</p>
 
           <div className="icons">
             <a href="https://www.linkedin.com/in/jean-martial-053279a7/" target="_blank"><LinkedInIcon className="icon primary"/></a>

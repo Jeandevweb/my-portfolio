@@ -26,32 +26,14 @@ export default function Works() {
             </Link>
             <div className="work-section">
 
-                <div className="cards">
-                    <img src={maps} alt="map image" />
-                    <button>Accéder</button>
+                <div className="cards">                  
+                    <img src={loruki} alt="loruki image" />                 
                     <div className="cards-icons">
-                        <a href="https://github.com/Jeandevweb/travel-advisor" target="_blank"><GitHubIcon className="icon-work"/></a>
+                        <a href="https://silly-shaw-6a51de.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <a href="https://github.com/Jeandevweb/IntegrationWebsite" target="_blank"><GitHubIcon className="icon-work"/></a>
                     </div>
-                    <p className="cards-title">Travel advisor</p>
-                    <p className="cards-description">React, React GoogleMap, Material UI, RapidAPI</p>
-                </div>
-
-                <div className="cards">               
-                    <img src={chatroom} alt="map image" />
-                    <div className="cards-icons">
-                        <a href="https://github.com/Jeandevweb/chatroom-react/tree/master/chatroom-react-redux-socketio-master/" target="_blank"><GitHubIcon className="icon-work"/></a>
-                    </div>
-                    <p className="cards-title">ChatRoom</p>
-                    <p className="cards-description">React, Redux, Express, Socket.io</p>             
-                </div>
-
-                <div className="cards">               
-                    <img src={githubApi} alt="map image" />
-                    <div className="cards-icons">
-                        <a href="https://github.com/Jeandevweb/github-API" target="_blank"><GitHubIcon className="icon-work"/></a>
-                    </div>
-                    <p className="cards-title">Github API</p>
-                    <p className="cards-description">React, Redux, API Github</p>             
+                    <p className="cards-title">Loruki</p>
+                    <p className="cards-description">HTML, SCSS </p>                   
                 </div>
 
                 <div className="cards one">
@@ -63,6 +45,39 @@ export default function Works() {
                     <p className="cards-title">Actos Site</p>
                     <p className="cards-description">HTML, SCSS, Javascript, Responsive</p>
                 </div>
+
+                <div className="cards">
+                    <img src={fetchCountries} alt="countries image" />
+                    <div className="cards-icons">
+                        <a href="https://mystifying-gates-7f2b1a.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <a href="https://github.com/Jeandevweb/FetchCountriesAPI" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">Fetch API</p>
+                    <p className="cards-description">Javascript, HTML, CSS, Bootstrap </p>
+                </div>
+
+                <div className="cards">
+                    <img src={pokedex} alt="pokedex image" />
+                    <div className="cards-icons">
+                        <a href="https://wizardly-nightingale-4dbdb7.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <a href="https://github.com/Jeandevweb/ThePokedex" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">Pokedex</p>
+                    <p className="cards-description">Javascript, HTML, CSS, PokeAPI </p>           
+                </div> 
+
+                
+
+                <div className="cards">               
+                    <img src={githubApi} alt="map image" />
+                    <div className="cards-icons">
+                        <a href="https://github.com/Jeandevweb/github-API" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">Github API</p>
+                    <p className="cards-description">React, Redux, API Github</p>             
+                </div>
+
+                
 
                 <div className="cards">
                     <img src={planet} alt="planetStudio image" />
@@ -84,36 +99,6 @@ export default function Works() {
                     <p className="cards-description">HTML, CSS, Javascript</p>               
                 </div>
 
-                <div className="cards">                  
-                    <img src={loruki} alt="loruki image" />                 
-                    <div className="cards-icons">
-                        <a href="https://silly-shaw-6a51de.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
-                        <a href="https://github.com/Jeandevweb/IntegrationWebsite" target="_blank"><GitHubIcon className="icon-work"/></a>
-                    </div>
-                    <p className="cards-title">Loruki</p>
-                    <p className="cards-description">HTML, SCSS </p>                   
-                </div>
-
-                <div className="cards">
-                    <img src={fetchCountries} alt="countries image" />
-                    <div className="cards-icons">
-                        <a href="https://mystifying-gates-7f2b1a.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
-                        <a href="https://github.com/Jeandevweb/FetchCountriesAPI" target="_blank"><GitHubIcon className="icon-work"/></a>
-                    </div>
-                    <p className="cards-title">Fetch API</p>
-                    <p className="cards-description">Javascript, HTML, CSS, Bootstrap </p>
-                </div>
-
-                <div className="cards">
-                    <img src={pokedex} alt="pokedex image" />
-                    <div className="cards-icons">
-                        <a href="https://wizardly-nightingale-4dbdb7.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
-                        <a href="https://github.com/Jeandevweb/ThePokedex" target="_blank"><GitHubIcon className="icon-work"/></a>
-                    </div>
-                    <p className="cards-title">Pokedex</p>
-                    <p className="cards-description">Javascript, HTML, CSS, PokeAPI </p>           
-                </div>           
-
                 <div className="cards">                   
                     <img src={todo} alt="todolist image" />
                     <div className="cards-icons">
@@ -123,7 +108,28 @@ export default function Works() {
                     <p className="cards-title">ToDo List</p>
                     <p className="cards-description">Javascript, HTML, CSS</p>
                 </div>
+
+                <div className="cards">
+                    <img src={maps} alt="map image" />
+                    <button>Accéder</button>
+                    <div className="cards-icons">
+                        <a href="https://github.com/Jeandevweb/travel-advisor" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">Travel advisor</p>
+                    <p className="cards-description">React, React GoogleMap, Material UI, RapidAPI</p>
+                </div>
+
+                <div className="cards">               
+                    <img src={chatroom} alt="map image" />
+                    <div className="cards-icons">
+                        <a href="https://github.com/Jeandevweb/chatroom-react/tree/master/chatroom-react-redux-socketio-master/" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">ChatRoom</p>
+                    <p className="cards-description">React, Redux, Express, Socket.io</p>             
+                </div>
             </div>
+
+            
 
 
         </div>
