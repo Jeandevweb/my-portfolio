@@ -16,6 +16,9 @@ import LanguageIcon from '@mui/icons-material/Language';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import chatroom from '../../assets/maquetteChatroom.png';
 import githubApi from '../../assets/githubApi.png';
+import cafeFlorette from '../../assets/cafe-florette.png';
+import journalLundi from '../../assets/journal-lundi.png';
+import ledorImmo from '../../assets/ledor-immo.png';
  
 export default function Works() {
     return (
@@ -66,7 +69,35 @@ export default function Works() {
                     <p className="cards-description">Javascript, HTML, CSS, PokeAPI </p>           
                 </div> 
 
-                
+                <div className="cards">
+                    <img src={cafeFlorette} alt="café florette" />
+                    <div className="cards-icons">
+                        <a href="https://the-cafe-florette.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <a href="https://github.com/Jeandevweb/Projet1-Integration" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">Café Florette</p>
+                    <p className="cards-description">HTML, CSS</p>           
+                </div> 
+
+                <div className="cards">
+                    <img src={ledorImmo} alt="ledorImmo" />
+                    <div className="cards-icons">
+                        <a href="https://ledor-immo.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <a href="https://github.com/Jeandevweb/Projet2-integration-responsive" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">Ledor Immobilier</p>
+                    <p className="cards-description">HTML, CSS, Responsive</p>           
+                </div>
+
+                <div className="cards">
+                    <img src={journalLundi} alt="journal du lundi" />
+                    <div className="cards-icons">
+                        <a href="https://journal-lundi.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <a href="https://github.com/Jeandevweb/Projet3responsive" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">Journal du Lundi</p>
+                    <p className="cards-description">HTML, CSS, Responsive</p>           
+                </div>
 
                 <div className="cards">               
                     <img src={githubApi} alt="map image" />
