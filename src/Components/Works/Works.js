@@ -1,16 +1,16 @@
 import React from 'react'
 import './Works.scss';
+import {Link} from 'react-router-dom'
 import actos from '../../assets/actosSite.png';
 import quizz from '../../assets/quizz.png';
 import fetchCountries from '../../assets/fetchCountries.png';
 import pokedex from '../../assets/pokedex.png';
 // import random from '../../assets/randomGithub.png';
 import todo from '../../assets/todoList.png';
-import tetris from '../../assets/tetris.png';
+//import tetris from '../../assets/tetris.png';
 import maps from '../../assets/maps.jpg';
 import planet from '../../assets/planetStudio.png';
 import loruki from '../../assets/loruki.png';
-import {Link} from 'react-router-dom'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import LanguageIcon from '@mui/icons-material/Language';
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -19,6 +19,7 @@ import githubApi from '../../assets/githubApi.png';
 import cafeFlorette from '../../assets/cafe-florette.png';
 import journalLundi from '../../assets/journal-lundi.png';
 import ledorImmo from '../../assets/ledor-immo.png';
+import movies from '../../assets/reactMovies.png';
  
 export default function Works() {
     return (
@@ -28,6 +29,17 @@ export default function Works() {
                 < ArrowBackIcon className="arrow" sx={{ fontSize: 50 }}/>
             </Link>
             <div className="work-section">
+
+                <div className="cards">
+                    <img src={movies} alt="map image" />
+                    <button>Accéder</button>
+                    <div className="cards-icons">
+                    <a href="https://themoviesapi.netlify.app/" target="_blank"><LanguageIcon className="icon-work"/></a>
+                        <a href="https://github.com/Jeandevweb/react-movies" target="_blank"><GitHubIcon className="icon-work"/></a>
+                    </div>
+                    <p className="cards-title">React Movies</p>
+                    <p className="cards-description">React, Sass, The Movie DataBase</p>
+                </div>
 
                 <div className="cards">                  
                     <img src={loruki} alt="loruki image" />                 
@@ -140,24 +152,9 @@ export default function Works() {
                     <p className="cards-description">Javascript, HTML, CSS</p>
                 </div>
 
-                <div className="cards">
-                    <img src={maps} alt="map image" />
-                    <button>Accéder</button>
-                    <div className="cards-icons">
-                        <a href="https://github.com/Jeandevweb/travel-advisor" target="_blank"><GitHubIcon className="icon-work"/></a>
-                    </div>
-                    <p className="cards-title">Travel advisor</p>
-                    <p className="cards-description">React, React GoogleMap, Material UI, RapidAPI</p>
-                </div>
+                
 
-                <div className="cards">               
-                    <img src={chatroom} alt="map image" />
-                    <div className="cards-icons">
-                        <a href="https://github.com/Jeandevweb/chatroom-react/tree/master/chatroom-react-redux-socketio-master/" target="_blank"><GitHubIcon className="icon-work"/></a>
-                    </div>
-                    <p className="cards-title">ChatRoom</p>
-                    <p className="cards-description">React, Redux, Express, Socket.io</p>             
-                </div>
+                
             </div>
 
             
